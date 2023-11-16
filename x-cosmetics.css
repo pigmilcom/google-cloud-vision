@@ -1,0 +1,43 @@
+/* NOT IMPORTANT - COSMETICS */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #f2f2f2;
+}
+form {
+  max-width: 600px;
+  padding: 15px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  background: #fff;
+}
+label, input, textarea, select {
+  display: block;
+  width: 100%;
+}
+label {
+  font-weight: 700;
+  color: #ff6868;
+  margin: 10px 0;
+}
+input, textarea, select {
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  resize: none;
+}
+textarea {
+  height: 70px;
+}
+input[type=submit] {
+  font-weight: 700;
+  margin-top: 20px;
+  border: 0;
+  color: #fff;
+  background: #c31f1f;
+  cursor: pointer;
+}
+div.hint {
+  font-size: 14px;
+}

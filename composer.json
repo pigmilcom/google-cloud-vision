@@ -1,0 +1,19 @@
+{
+    "name": "localhost/google",
+    "description": "google services",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Localhost\\Google\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PIGMIL"
+        }
+    ],
+    "require": {
+        "google/cloud-text-to-speech": "^1.7",
+        "google/cloud-vision": "^1.7"
+    }
+}
