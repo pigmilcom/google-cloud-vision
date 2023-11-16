@@ -28,13 +28,3 @@ https://cloud.google.com/vision/docs/
 
 Official Github Repo:
 https://github.com/googleapis/google-cloud-php-vision
-
-
-
-
-How to use,
-Google Text-To-Speech (TTS):
-
-- Edit get-voice-list.php, choose the language
-- Download the file language, http://localhost/get-voice-list.php
-- Generate audio, http://localhost/?tts or http://localhost/index_tts.php
