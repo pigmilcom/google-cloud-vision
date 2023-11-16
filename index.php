@@ -20,32 +20,32 @@ if(!isset($_GET['img'])){
 }
 
 $request = $_GET['request']; 
-$path = $_GET['img'];
+$img_path = $_GET['img'];
 
 switch ($request){
     case 'web':  
         require_once('vision_class.php');
-        WebDetect($path); 
+        WebDetect($img_path); 
     break;
     case 'text':  
         require_once('vision_class.php');
-        FindText($path); 
+        FindText($img_path); 
     break; 
     case 'logo':  
         require_once('vision_class.php');
-        FindLogo($path); 
+        FindLogo($img_path); 
     break; 
     case 'landmark':  
         require_once('vision_class.php');
-        Landmark($path); 
+        Landmark($img_path); 
     break;  
     case 'safesearch':  
         require_once('vision_class.php');
-        SafeSearch($path); 
+        SafeSearch($img_path); 
     break; 
     case 'face':  
         require_once('vision_class.php');
-        FaceDetect($path); 
+        FaceDetect($img_path); 
     break; 
     default:
     echo $error;
