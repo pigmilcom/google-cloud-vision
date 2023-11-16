@@ -19,7 +19,7 @@ Google Vision:
         Landmark
         SafeSearch 
 
-- Example http://localhost/?vision&i=https://imagepath.com/sample.jpg
+- Example http://localhost/?vision=web&i=https://imagepath.com/sample.jpg
 
 
 
