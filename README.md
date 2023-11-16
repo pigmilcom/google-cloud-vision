@@ -8,8 +8,9 @@ Before use:
 - Download the json key file, rename it as '_service_account.json' and replace it at 'lib/_service_account.json'
 
 Installation:
-- Download the code files to your computer
-- run composer install
+- run, git clone https://github.com/pigmilcom/google-cloud-vision
+- Or, download the code files to your computer
+- run, composer install
 
 How to use,
 Google Vision:
