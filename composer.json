@@ -13,7 +13,6 @@
         }
     ],
     "require": {
-        "google/cloud-text-to-speech": "^1.7",
         "google/cloud-vision": "^1.7"
     }
 }
