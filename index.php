@@ -12,7 +12,7 @@ require "vendor/autoload.php";
 
   
 if(isset($_GET['request'])){
-$error = 'Enter the image path following by /?request='.$_GET['vision'].'&img=https://example.com/sample.png';
+$error = 'Enter the image path following by /?request='.$_GET['request'].'&img=https://example.com/sample.png';
 
 if(!isset($_GET['img'])){ 
     echo $error;
