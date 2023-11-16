@@ -13,13 +13,21 @@ Installation:
 
 Google Vision:
 
-        WebDetect
-        Text
-        FindLogo
-        Landmark
-        SafeSearch 
+        Web (Find web related content to image)
+        Text (Find text in image)
+        Logo (Find logos in image)
+        Landmark (Find landmarks)
+        SafeSearch
+        Face
 
-- Example http://localhost/?vision=web&i=https://imagepath.com/sample.jpg
+- Example http://localhost/?vision=text&i=https://imagepath.com/sample.jpg
+
+You can find more information at the official documentation website:
+https://cloud.google.com/vision/docs/
+
+Official Github Repo
+https://github.com/googleapis/google-cloud-php-vision
+
 
 
 
