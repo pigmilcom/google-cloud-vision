@@ -11,51 +11,47 @@ error_reporting(E_ALL);
 require "vendor/autoload.php"; 
 
   
-if(isset($_GET['tts'])){
-     include_once('index_tts.php');
-}
+if(isset($_GET['request'])){
+$error = 'Enter the image path following by /?request='.$_GET['vision'].'&img=https://example.com/sample.png';
 
-elseif(isset($_GET['vision'])){
-
-if(!isset($_GET['i'])){ 
-    echo 'Enter the image path following by /?vision='.$_GET['vision'].'&i=https://example.com/sample.png';
+if(!isset($_GET['img'])){ 
+    echo $error;
     die;
 }
 
-$request = $_GET['vision']; 
-$url = $_GET['i'];
+$request = $_GET['request']; 
+$path = $_GET['img'];
 
 switch ($request){
     case 'web':  
         require_once('vision_class.php');
-        WebDetect($url); 
+        WebDetect($path); 
     break;
     case 'text':  
         require_once('vision_class.php');
-        FindText($url); 
+        FindText($path); 
     break; 
     case 'logo':  
         require_once('vision_class.php');
-        FindLogo($url); 
+        FindLogo($path); 
     break; 
     case 'landmark':  
         require_once('vision_class.php');
-        Landmark($url); 
+        Landmark($path); 
     break;  
     case 'safesearch':  
         require_once('vision_class.php');
-        SafeSearch($url); 
+        SafeSearch($path); 
     break; 
     case 'face':  
         require_once('vision_class.php');
-        FaceDetect($url); 
+        FaceDetect($path); 
     break; 
     default:
-    echo 'Invalid request.';
+    echo $error;
 }
-} else {
-
-    echo 'Load request options.';
+} else { 
+    echo 'Invalid request, enter your request following by http://localhost/?request=google_vision_request_here';
 }
 
 ?>
