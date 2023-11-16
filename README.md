@@ -1,11 +1,14 @@
 # google-cloud-vision
-www.pigmil.com
+Google Cloud Vision
+
 
 Before use:
-- Set up your Google Cloud
+- Set up your Google Cloud Account
+- Activate Vision API at Google Console
 - Create a Service Account
 - Generate a API Key in JSON format
 - Download the json key file, rename it as '_service_account.json' and replace it at 'lib/_service_account.json'
+
 
 Installation:
 - run, git clone https://github.com/pigmilcom/google-cloud-vision
