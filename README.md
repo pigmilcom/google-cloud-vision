@@ -18,4 +18,13 @@ Google Vision:
         FindLogo
         Landmark
         SafeSearch 
+
 - Example http://localhost/?vision&i=https://imagepath.com/sample.jpg
+
+
+
+Google Text-To-Speech (TTS)
+
+- Edit get-voice-list.php, choose the language
+- Download the file language, http://localhost/get-voice-list.php
+- Generate audio, http://localhost/?tts or http://localhost/index_tts.php
