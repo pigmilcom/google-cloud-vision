@@ -11,6 +11,7 @@ Installation:
 - Download the code files to your computer
 - run composer install
 
+How to use,
 Google Vision:
 
         Web (Find web related content to image)
@@ -22,16 +23,17 @@ Google Vision:
 
 - Example http://localhost/?vision=text&i=https://imagepath.com/sample.jpg
 
-You can find more information at the official documentation website:
+You can find more information and examples at the official documentation website:
 https://cloud.google.com/vision/docs/
 
-Official Github Repo
+Official Github Repo:
 https://github.com/googleapis/google-cloud-php-vision
 
 
 
 
-Google Text-To-Speech (TTS)
+How to use,
+Google Text-To-Speech (TTS):
 
 - Edit get-voice-list.php, choose the language
 - Download the file language, http://localhost/get-voice-list.php
